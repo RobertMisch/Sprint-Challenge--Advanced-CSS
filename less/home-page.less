@@ -86,8 +86,11 @@
         }
 
         .btn {
-          .button(30%, @ebony-clay);
+          .button(30%, @ebony-clay, white);
           padding:3% 2%;
+          // &:hover{
+          //   .animation(@ebony-clay, white)
+          // } this for some reason superceeds the other button hover. specificty likely to blame?
           @media @mobile{
             .mobilemode();
             padding: 5% 2%;

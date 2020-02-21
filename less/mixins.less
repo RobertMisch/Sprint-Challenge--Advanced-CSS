@@ -20,7 +20,7 @@
     &:hover{
         background-color: @fontcolor;
         color: @color;
-        // .animation(@color, @color2);
+        // .animation(@color, @fontcolor);
     }
 }
 .animation(@color1, @color2){
@@ -30,5 +30,7 @@
     @keyframes example {
         from {background-color: @color1}
         to {background-color: @color2}
+        from{color:@color2}
+        to{color:@color1}
       }
 }

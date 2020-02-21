@@ -200,6 +200,24 @@ p {
   background-color: #5E6164;
   color: #F6F6F6;
 }
+.navcontainer nav a:hover {
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  from {
+    background-color: #F6F6F6;
+  }
+  to {
+    background-color: #5E6164;
+  }
+  from {
+    color: #5E6164;
+  }
+  to {
+    color: #F6F6F6;
+  }
+}
 @media (max-width: 500px) {
   .navcontainer nav {
     flex-direction: row;
