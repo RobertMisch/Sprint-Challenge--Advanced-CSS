@@ -161,6 +161,10 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.sticky-nav {
+  position: sticky;
+  top: 0px;
+}
 .navcontainer {
   display: flex;
   justify-content: center;
@@ -168,6 +172,7 @@ p {
   flex-direction: column;
   width: 100%;
   background-color: #F6F6F6;
+  opacity: 90%;
   padding-top: 1%;
 }
 .navcontainer h2 {
@@ -192,17 +197,8 @@ p {
   margin-bottom: 2%;
 }
 .navcontainer nav a:hover {
-  background-color: #ffffff;
-  animation-name: example;
-  animation-duration: 1s;
-}
-@keyframes example {
-  from {
-    background-color: #F6F6F6;
-  }
-  to {
-    background-color: #ffffff;
-  }
+  background-color: #5E6164;
+  color: #F6F6F6;
 }
 @media (max-width: 500px) {
   .navcontainer nav {
@@ -315,17 +311,8 @@ footer {
   padding: 3% 2%;
 }
 .home .walk-fix .walk .walk-text .btn:hover {
-  background-color: #5c6c9b;
-  animation-name: example;
-  animation-duration: 1s;
-}
-@keyframes example {
-  from {
-    background-color: #23293B;
-  }
-  to {
-    background-color: #5c6c9b;
-  }
+  background-color: white;
+  color: #23293B;
 }
 @media (max-width: 500px) {
   .home .walk-fix .walk .walk-text .btn {

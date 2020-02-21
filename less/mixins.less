@@ -16,10 +16,11 @@
     border-radius: 5px;
     font-size: large;
     margin: 2% 0;
-    @color2: lighten(@color, 30%);
+    // @color2: lighten(@color, 30%);
     &:hover{
-        background-color: @color2;
-        .animation(@color, @color2);
+        background-color: @fontcolor;
+        color: @color;
+        // .animation(@color, @color2);
     }
 }
 .animation(@color1, @color2){
